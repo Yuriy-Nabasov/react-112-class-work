@@ -1,0 +1,10 @@
+.title {
+  background-color: orangered;
+  background-image: url("/src/assets/default-pilot.jpeg");
+}
+
+/* @media (min-resolution: 2x) {
+  .title {
+    background-image: url("/src/assets/2x-default-pilot.jpeg");
+  }
+} */
