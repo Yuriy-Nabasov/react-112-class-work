@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styles from './Reader.module.css';
 
 // {
@@ -8,7 +8,14 @@ import styles from './Reader.module.css';
 // }
 
 export default function Reader({ items }) {
-  const [selectedIdx, setSelectedIdx] = useState(0);
+  // const [selectedIdx, setSelectedIdx] = useState(0);
+  const [selectedIdx, setSelectedIdx] = useState(() => {
+    const savedIdx = localStorage.getItem(`reader-idx`);
+    if (savedIdx !== null) {
+      return JSON.parse(savedIdx);
+    }
+    return 0;
+  });
 
   const handlePrev = () => {
     setSelectedIdx(selectedIdx - 1);
@@ -17,6 +24,10 @@ export default function Reader({ items }) {
   const handleNext = () => {
     setSelectedIdx(selectedIdx + 1);
   };
+
+  useEffect(() => {
+    localStorage.setItem(`reader-idx`, JSON.stringify(selectedIdx));
+  }, [selectedIdx]);
 
   const currentArticle = items[selectedIdx];
   const isFirstEl = selectedIdx === 0;
