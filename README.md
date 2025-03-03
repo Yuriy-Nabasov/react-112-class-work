@@ -1,21 +1,17 @@
-# Заняття 4 - [Ефекти](https://youtu.be/fyQLBEEQHhU)
+# Заняття 5 - Форми в React
 
-- [Життєвий цикл компонента](https://youtu.be/fyQLBEEQHhU?t=67)
-  - Монтування
-  - Оновлення
-  - Розмонтування
-- [Хук useEffect](https://youtu.be/fyQLBEEQHhU?t=241)
-  - Створення ефектів
-  - Етап оновлення
-  - Декілька ефектів
-  - [Етап монтування та подвійне монтування у суворому режимі (`Sidebar`)](https://youtu.be/fyQLBEEQHhU?t=1220)
-  - [Етап розмонтування та очищення еффекту (`Sidebar`)](https://youtu.be/fyQLBEEQHhU?t=1858)
-  - [Етап монтування та розмонтування (`Timer`)](https://youtu.be/fyQLBEEQHhU?t=2552)
-- [Робота з LocalStorage на прикладі `Article Reader`](https://youtu.be/fyQLBEEQHhU?t=3783)
-  - Запис через ефект
-  - Читання через `useState(callback)`
-- реальні приклади (usecase):
-  - [зміна теми](https://youtu.be/fyQLBEEQHhU?t=4741)
-  - [ActivityTracker](https://youtu.be/fyQLBEEQHhU?t=5370)
-- [Kahoot](https://youtu.be/fyQLBEEQHhU?t=5862)
-- [Відповіді на питання](https://youtu.be/fyQLBEEQHhU?t=6503)
+- Форми
+  - Форма як окремий компонент (UserForm)
+  - Сабміт форми (onSubmit)
+  - Неконтрольована форма з e.target.elements
+  - Очищення форми після сабміту з e.target.reset()
+  - Пропс сабміту
+  - Об'єкт подіі не передаємо у пропс сабміту
+- Хук useId
+- Контрольовані елементи
+  - Атрибути value та onChange та передача їх значень пропсами
+  - Текстове поле (TextInput)
+  - Елемент select (LangSwitcher)
+- Контрольована форма (OrderForm)
+  - Обробка сабміту форми
+  - Очищення форми після сабміту
