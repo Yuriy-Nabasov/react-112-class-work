@@ -1,16 +1,21 @@
-# Заняття 4 - Ефекти
+# Заняття 4 - [Ефекти](https://youtu.be/fyQLBEEQHhU)
 
-- Життєвий цикл компонента
+- [Життєвий цикл компонента](https://youtu.be/fyQLBEEQHhU?t=67)
   - Монтування
   - Оновлення
   - Розмонтування
-- Хук useEffect
+- [Хук useEffect](https://youtu.be/fyQLBEEQHhU?t=241)
   - Створення ефектів
   - Етап оновлення
   - Декілька ефектів
-  - Етап монтування та подвійне монтування у суворому режимі (`Sidebar`)
-  - Етап розмонтування та очищення еффекту (`Sidebar`)
-  - Етап монтування та розмонтування (`Timer`)
-- Робота з LocalStorage на прикладі `Article Reader`
+  - [Етап монтування та подвійне монтування у суворому режимі (`Sidebar`)](https://youtu.be/fyQLBEEQHhU?t=1220)
+  - [Етап розмонтування та очищення еффекту (`Sidebar`)](https://youtu.be/fyQLBEEQHhU?t=1858)
+  - [Етап монтування та розмонтування (`Timer`)](https://youtu.be/fyQLBEEQHhU?t=2552)
+- [Робота з LocalStorage на прикладі `Article Reader`](https://youtu.be/fyQLBEEQHhU?t=3783)
   - Запис через ефект
   - Читання через `useState(callback)`
+- реальні приклади (usecase):
+  - [зміна теми](https://youtu.be/fyQLBEEQHhU?t=4741)
+  - [ActivityTracker](https://youtu.be/fyQLBEEQHhU?t=5370)
+- [Kahoot](https://youtu.be/fyQLBEEQHhU?t=5862)
+- [Відповіді на питання](https://youtu.be/fyQLBEEQHhU?t=6503)
