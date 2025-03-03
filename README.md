@@ -1,18 +1,21 @@
-# Заняття 3 - Події та стан компонента
+# Заняття 3 - [Події та стан компонента](https://youtu.be/uMFpCSqgI3M)
 
-- Обробка подій
-  Іменування атрибутів обробників on\*
-  Додавання обробника події
-  Посилання на функцію
-  Анонімний колбек
-  Об'єкт події
-- Стан компонента
-  Реактивність
-  Хук useState
-  Обмеження хуків
-  Асинхронність оновлення стану
-  Ізоляція стану
-  Підняття стану
-  Компоненти Counter та CountDisplay
-  Створюємо акордеон
-- Воркшоп Article Reader
+- [Обробка подій](https://youtu.be/uMFpCSqgI3M?t=133)
+  - Іменування атрибутів обробників on\*
+  - Додавання обробника події
+  - Посилання на функцію
+  - Анонімний колбек
+  - Об'єкт події
+- [Стан компонента](https://youtu.be/uMFpCSqgI3M?t=852)
+  - Реактивність
+  - Хук useState
+  - [Обмеження хуків](https://youtu.be/uMFpCSqgI3M?t=1524)
+  - [Асинхронність оновлення стану](https://youtu.be/uMFpCSqgI3M?t=1647)
+  - [Правила наіменування](https://youtu.be/uMFpCSqgI3M?t=1793)
+  - [Ізоляція стану](https://youtu.be/uMFpCSqgI3M?t=1893)
+  - [Підняття стану](https://youtu.be/uMFpCSqgI3M?t=2287)
+  - Компоненти Counter та CountDisplay
+- [Створюємо акордеон](https://youtu.be/uMFpCSqgI3M?t=3381)
+- [Воркшоп Article Reader](https://youtu.be/uMFpCSqgI3M?t=4520)
+- [Kahoot](https://youtu.be/uMFpCSqgI3M?t=5811)
+- [Відповіді на питання](https://youtu.be/uMFpCSqgI3M?t=6629)
