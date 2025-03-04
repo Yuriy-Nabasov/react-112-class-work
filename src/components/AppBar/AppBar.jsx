@@ -1,7 +1,7 @@
 import TextInput from '../TextInput/TextInput';
 import LangSwitcher from '../LangSwitcher/LangSwitcher';
 
-export default function AppBar() {
+export default function AppBar({ filter, lang, onFilter, onSelectLang }) {
   return (
     <header
       style={{
@@ -11,8 +11,8 @@ export default function AppBar() {
         gap: 20,
       }}
     >
-      <TextInput />
-      <LangSwitcher />
+      <TextInput value={filter} onFilter={onFilter} />
+      <LangSwitcher value={lang} onSelect={onSelectLang} />
     </header>
   );
 }
