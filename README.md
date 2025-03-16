@@ -1,21 +1,19 @@
-# [Заняття 7 - HTTP-запити](https://youtu.be/kvuXrC-ajn4)
+# [Заняття 8 - Мемоізація, рефи, контекст](https://youtu.be/wG8XpYMlgec)
 
-- HTTP-запити
-  - https://hn.algolia.com/api (http://hn.algolia.com/api/v1/search)
-  - [Запит в ефекті при монтуванні або оновлені компонента](https://youtu.be/kvuXrC-ajn4?t=253)
-  - [Запит при події, наприклад сабміт](https://youtu.be/kvuXrC-ajn4?t=603)
-  - Оголошення функціі у ефекті
-  - Обробка даних запиту
-  - Відображення даних
-  - Поділ відповідальності
-  - [Індикатор завантаження](https://youtu.be/kvuXrC-ajn4?t=1609)
-  - [Обробка помилок](https://youtu.be/kvuXrC-ajn4?t=1994)
-  - [Пошук через форму](https://youtu.be/kvuXrC-ajn4?t=2519)
-- [Пагінація](https://youtu.be/kvuXrC-ajn4?t=2691)
-  - Параметри групи та номеру групи
-  - Кнопка Load more
-  - Зберігання `page` та `topic` у стані
-- [Бібліотека](https://youtu.be/kvuXrC-ajn4?t=4588) [React Hot Toast](https://react-hot-toast.com/)
+- [Рефи з хуком useRef](https://youtu.be/wG8XpYMlgec?t=81)
+  - Створення
+  - Життєвий цикл рефа
+  - Відсутність реактивності
+  - збереження стану між оновленням компоненту
+- [Контекст](https://youtu.be/wG8XpYMlgec?t=2093)
 
-- [Kahoot](https://youtu.be/kvuXrC-ajn4?t=4969)
-- [Відповіді на питання](https://youtu.be/kvuXrC-ajn4?t=5603)
+  - Створення контекста з createContext
+  - Контекст вибору мови (langContext)
+  - Компонент провайдер
+  - Хук use у LangMessage та LangSwitcher
+  - Кастомний компонент провайдера LangProvider
+  - Стан та зміна стану у компоненті провайдера LangProvider
+  - Передача стану та сеттера через контекст
+
+- [Kahoot](https://youtu.be/wG8XpYMlgec?t=5081)
+- [Відповіді на питання](https://youtu.be/wG8XpYMlgec?t=5667)
