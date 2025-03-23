@@ -14,3 +14,8 @@ export const fetchUserPosts = async (userId) => {
   const resp = await axios.get(`https://dummyjson.com/users/${userId}/posts`);
   return resp.data.posts;
 };
+
+export const fetchUserTodos = async (userId) => {
+  const resp = await axios.get(`https://dummyjson.com/users/${userId}/todos`);
+  return resp.data.todos;
+};
