@@ -1,14 +1,14 @@
 # Заняття 10 - Маршрутизація
 
 - Рядок запиту
-  - Із чого складається (https://gomerch.it/products?name=hoodie&color=orange&maxPrice=500)
-  - Вилучення параметрів з `useSearchParams`
+  - Синтаксис параметрів рядка запиту
+  - Вилучення параметрів через `useSearchParams`
   - Тип значень повертаємий методом `get`
-  - Зміна рядка запиту
+  - Зміна рядка запиту з `new URLSearchParams` та `setSearchParams`
 - Об'єкт місцезнаходження
   - Хук `useLocation`
   - Властивість `location.state`
-- Розділення коду
+- [Розділення коду](https://youtu.be/fM-rMhenAKE?t=3304)
   - `React.lazy` та `React.Suspense`
 
 ## Users App
@@ -21,5 +21,5 @@
 - Використати `location.state` для передачі `location` при переході до сторінки деталей при кліку по посиланню у картці користувача.
 - Додати розділення коду маршрутів, включаючи вкладені.
 
-* [Kahoot]()
-* [Відповіді на питання]()
+* [Kahoot](https://youtu.be/fM-rMhenAKE?t=4560)
+* [Відповіді на питання](https://youtu.be/fM-rMhenAKE?t=5002)

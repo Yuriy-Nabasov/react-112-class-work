@@ -1,17 +1,16 @@
 import axios from 'axios';
 
-// `http://hn.algolia.com/api/v1/search`
+export const fetchUsers = async (query) => {
+  const resp = await axios.get(`https://dummyjson.com/users/search?q=${query}`);
+  return resp.data.users;
+};
 
-export const fetchArticles = async (topic, currentPage) => {
-    // const response = await axios.get(
-    //     `http://hn.algolia.com/api/v1/search?query=${topic}`
-    // );
-    const response = await axios.get(`http://hn.algolia.com/api/v1/search`, {
-        params: {
-            query: topic,
-            hitsPerPage: 5,
-            page: currentPage,
-        },
-    });
-    return response.data.hits;
+export const fetchUserById = async (userId) => {
+  const resp = await axios.get(`https://dummyjson.com/users/${userId}`);
+  return resp.data;
+};
+
+export const fetchUserPosts = async (userId) => {
+  const resp = await axios.get(`https://dummyjson.com/users/${userId}/posts`);
+  return resp.data.posts;
 };
