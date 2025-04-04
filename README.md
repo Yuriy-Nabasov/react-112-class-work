@@ -1,26 +1,18 @@
-# [Заняття 12 - Бібліотека Redux Toolkit](https://youtu.be/whzLpK1FYuM)
+# [Заняття 13 - HTTP-запити з Redux Toolkit](https://youtu.be/hr8gjtyQ3Aw)
 
-## Слайси стану
+- Редакс все робить синхронно: відправка екшенів, оновлення стану
+- Асинхронні операції (thunk — фрагмент коду, який виконує відкладену роботу.)
+- Форма стану слайса: loading, error, data
+- Оголошення операції `fetchTasks` через `createAsyncThunk`
+  - URL запиту: `https://62584f320c918296a49543e7.mockapi.io/tasks`
+  - Діспатч операції у компоненті при монтуванні
+  - Екшени операціії: pending, fulfilled, rejected
+  - Обробка результату операцій у слайсі (`extraReducers`)
+  - Обробка запиту, що завершився з помилкою (`thunkAPI.rejectWithValue`)
+- Операціі `addTask` та `deleteTask`
 
-- Розділення коду кореневого редюсера на редюсери слайсів
-- Створення файлів слайсів `balanceSlice.js` та `localeSlice.js`
+  - Діспатч операцій у компонентах
+  - Обробка результату операцій у слайсі
 
-## Функція `createSlice`
-
-- Створення слайса
-- Властивості `name` та `initialState`
-- Властивість `reducers` та case-редюсери
-- Експорт фабрик екшенів
-- Експорт кореневого редюсера
-- Використання `Immer` для оновлення стану у case-редюсерах слайсів
-
-## Бібліотека [Redux Persist](https://www.npmjs.com/package/redux-persist)
-
-- Створення конфігурації
-- Створення `persistor`
-- Додавання `PersistGate`
-
-<!-- https://create.kahoot.it/details/ua-6-1-redux/93bec0b2-ab02-412a-a8e4-d343a48f58dc -->
-
-- [Kahoot](https://youtu.be/whzLpK1FYuM?t=4591)
-- [Відповіді на питання](https://youtu.be/whzLpK1FYuM?t=5421)
+- [Kahoot](https://youtu.be/hr8gjtyQ3Aw?t=4505)
+- [Відповіді на питання](https://youtu.be/hr8gjtyQ3Aw?t=4976)
